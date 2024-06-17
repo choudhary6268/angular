@@ -5,6 +5,7 @@ import { LoginModule } from './login/login.module';
 import { EditComponent } from './login/edit/edit.component';
 import { AppComponent } from './app.component';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -16,6 +17,8 @@ import { BrowserModule } from '@angular/platform-browser';
     BrowserModule,
     CommonModule,
     AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
    LoginModule,
    EditComponent
   ],
